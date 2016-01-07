@@ -87,9 +87,9 @@ public class GameBoard {
 	private Room BratwurstHall=new Room("Bratwurst Hall",1020,1680,21,new int[]{20,8});
 	
 	//Initialize Players
-	Player Jim= new Player("Jim",false,false,ECS302,30,30,30,0,0);
-	Player Susy= new Player("Susy",false,false,ECS302,5,5,5,29,50);
-	Player Bob=new Player("Bob",false,false,ECS302,5,5,5,30,100);
+	Player Jim= new Player("Jim",false,false,ECS302,5,5,5,0,0);
+	Player Susy= new Player("Susy",false,false,ECS302,5,5,5,0,50);
+	Player Bob=new Player("Bob",false,false,ECS302,5,5,5,0,100);
 	
 		
 	GameBoard(){
